@@ -23,7 +23,7 @@ export class FullScreenComponent implements OnInit {
       container: 'mapa',
       style: 'mapbox://styles/mapbox/streets-v11',
       center: [ -0.36042507119481876, 39.488717334091724 ],  // Longitud y latitud
-      zoom: 15
+      zoom: 12
     });
 
   }

@@ -8,7 +8,7 @@
           Zoom: {{ zoomLevel | number: '2.0-2' }}
           - Lng,Lat: [123,456]
         </label>
-        <input type="range" class="form-range">
+        <input type="range" class="form-range" [value]="zoomLevel" min="0" max="18" (input)="zoomCambio( zoomInput.value )" #zoomInput>
     </div>
 
     <div class="col-12">
